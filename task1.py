@@ -16,3 +16,9 @@ Example:
 10
 ...
 """
+
+count = 0
+result = 20
+while count != result:
+    count = count + 2 
+    print(count)
