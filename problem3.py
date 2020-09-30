@@ -16,6 +16,6 @@ Example:
 
 a = int(1)
 a1 = a
-while a1 < 100:
+while a1 < 145:
     print(a1 ,end=" ")
     a1,a = a,a1 + a
