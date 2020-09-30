@@ -15,3 +15,12 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+
+a = int(input("Enter a integer "))
+b = a * 12
+a1 = int(a)
+count = 0
+while a1 != b:
+    count = count + 1
+    a1 = a * count
+    print(a1)
