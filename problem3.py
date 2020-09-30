@@ -17,5 +17,5 @@ Example:
 a = int(1)
 a1 = a
 while a1 < 100:
-    print(a1)
+    print(a1 ,end=" ")
     a1,a = a,a1 + a
