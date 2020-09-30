@@ -19,11 +19,11 @@ Access denied
 name = ""
 password = ""
 while name != "admin":
-    name = input("username: ")
+    name = input("username: ").strip()
     if name != "admin":
         print("Access denied")
 while password != "12345":
-    password = input("password: ")
+    password = input("password: ").strip()
     if password != "12345":
         print("Access denied")
 print("Access granted")
