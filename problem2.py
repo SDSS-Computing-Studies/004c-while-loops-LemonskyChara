@@ -23,4 +23,4 @@ count = 0
 while a1 != b:
     count = count + 1
     a1 = a * count
-    print(a1)
+    print(a1 ,end=" ")
