@@ -13,3 +13,9 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+
+a = int(1)
+a1 = a
+while a1 < 100:
+    print(a1)
+    a1,a = a,a1 + a
